@@ -1,0 +1,11 @@
+Continued from part 0-5.txt
+
+
+browser->server: HTTP POST (201) https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over browser:
+request call stack on form submit -> 
+calls sendToServer and pushes new note onto stack -> 
+updates it with js in frontend while also updating backend
+end note
+
